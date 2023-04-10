@@ -10,6 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          repository: keycloak/keycloak-containers
           ref: '9.0.0'
 
       - name: Set up QEMU
